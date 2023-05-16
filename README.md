@@ -10,7 +10,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
+<!--   - [🚀 Live Demo](#live-demo) -->
   - [🚶‍♂️ Walkthrough](#walkthrough)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
@@ -71,11 +71,11 @@
 
 <!-- LIVE DEMO LINK -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+<!-- ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link]()
 
-<!-- GETTING STARTED -->
+<!-- GETTING STARTED --> -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -121,9 +121,9 @@ To open it in your preferred browser, run the command
 
 👤 **Emmanuel**
 
-- GitHub: [@https://github.com/musangamfure]()
-- Twitter: [@https://twitter.com/musangamfure]()
-- LinkedIn: [@https://www.linkedin.com/in/musangamfura-emmanuel-6a214a262/]()
+- GitHub: [https://github.com/musangamfure]()
+- Twitter: [https://twitter.com/musangamfure]()
+- LinkedIn: [https://www.linkedin.com/in/musangamfura-emmanuel-6a214a262/]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
