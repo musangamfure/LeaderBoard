@@ -75,7 +75,7 @@
 
 - [Live Demo Link]()
 
-<!-- GETTING STARTED --> -->
+<!-- GETTING STARTED --> 
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -121,9 +121,9 @@ To open it in your preferred browser, run the command
 
 👤 **Emmanuel**
 
-- GitHub: [https://github.com/musangamfure]()
-- Twitter: [https://twitter.com/musangamfure]()
-- LinkedIn: [https://www.linkedin.com/in/musangamfura-emmanuel-6a214a262/]()
+- GitHub: [https://github.com/musangamfure](https://github.com/musangamfure)
+- Twitter: [https://twitter.com/musangamfure](https://twitter.com/musangamfure)
+- LinkedIn: [https://www.linkedin.com/in/musangamfura-emmanuel-6a214a262/](https://www.linkedin.com/in/musangamfura-emmanuel-6a214a262/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
