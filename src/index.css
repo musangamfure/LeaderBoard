@@ -11,21 +11,23 @@
 }
 
 header {
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
   background: rgba(255, 255, 255, 0.15);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  box-shadow: 0 8px 2rem 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(3px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  margin-bottom: 100px;
-  padding-left: 10px;
+  padding-left: 0.625rem;
   width: auto;
 }
 
 body {
   background-color: #454545;
   font-family: 'Poppins', sans-serif;
-  padding-top: 10px;
+  padding-top: 0.625rem;
 }
 
 .leaderboard {
@@ -33,16 +35,18 @@ body {
   width: 85%;
 }
 
-.container {
+.hero {
+  min-height: 80vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 5rem;
 }
 
-.added-scores {
+.added-scores,
+.add-score {
   backdrop-filter: blur(16px) saturate(180%);
-  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(1rem) saturate(180%);
   background: #ccc;
   padding: 10px;
   border-radius: 8px;
@@ -57,7 +61,6 @@ body {
 }
 
 h1 {
-  margin-bottom: 2rem;
   font-size: 3rem;
   color: #fff;
 }
@@ -65,6 +68,7 @@ h1 {
 h2 {
   font-size: 1.8rem;
   color: rgb(81, 81, 81);
+  text-transform: capitalize;
 }
 
 button {
@@ -72,7 +76,7 @@ button {
   border: 1px solid #1b9c85;
   border-radius: 5px;
   padding: 0.7rem 1rem;
-  font-size: 16px;
+  font-size: 1rem;
   cursor: pointer;
   align-self: flex-end;
   color: #fff;
@@ -101,18 +105,12 @@ ul li {
 ul li:nth-child(even) {
   background: #454545;
   color: white;
-  padding-left: 10px;
+  padding-left: 0.625rem;
 }
 
 ul li:nth-child(odd) {
   background: #fff;
-  padding-left: 10px;
-}
-
-.add-score {
-  background: #ccc;
-  padding: 10px;
-  border-radius: 8px;
+  padding-left: 0.625rem;
 }
 
 .add-score h2 {
@@ -123,7 +121,7 @@ ul li:nth-child(odd) {
 .score-display {
   background-color: #34a654;
   padding: 2% 5%;
-  border-radius: 22px;
+  border-radius: 8px;
   color: #fff;
   font-weight: 600;
 }
@@ -136,8 +134,22 @@ form {
 form input[type='text'],
 form input[type='number'] {
   margin-bottom: 1.1rem;
-  padding: 10px;
+  padding: 0.625rem;
   border: 1px solid #ccc;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 1rem;
+}
+
+footer {
+  min-height: 10vh;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: #34a654;
 }
