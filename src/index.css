@@ -10,10 +10,22 @@
   list-style: none;
 }
 
+header {
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  margin-bottom: 100px;
+  padding-left: 10px;
+  width: auto;
+}
+
 body {
   background-color: #454545;
   font-family: 'Poppins', sans-serif;
-  padding-top: 60px;
+  padding-top: 10px;
 }
 
 .leaderboard {
@@ -29,6 +41,8 @@ body {
 }
 
 .added-scores {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
   background: #ccc;
   padding: 10px;
   border-radius: 8px;
@@ -64,12 +78,19 @@ button {
   color: #fff;
 }
 
+button:hover {
+  background-color: #34a654;
+}
+
 ul {
   border: none;
 }
 
 ul li {
-  padding: 0.5rem 0 0.5rem 0.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0.2rem;
   font-size: 1rem;
   font-weight: 600;
   border-radius: 5px;
@@ -78,7 +99,7 @@ ul li {
 }
 
 ul li:nth-child(even) {
-  background: transparent;
+  background: #454545;
   color: white;
   padding-left: 10px;
 }
@@ -97,6 +118,14 @@ ul li:nth-child(odd) {
 .add-score h2 {
   margin-bottom: 1.5rem;
   text-transform: capitalize;
+}
+
+.score-display {
+  background-color: #34a654;
+  padding: 2% 5%;
+  border-radius: 22px;
+  color: #fff;
+  font-weight: 600;
 }
 
 form {
