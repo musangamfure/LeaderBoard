@@ -1,6 +1,8 @@
 # LeaderBoard
 
 <a name="readme-top"></a>
+<img width="854" alt="Learderboard" src="https://github.com/musangamfure/LeaderBoard/assets/123179856/ebea7070-652f-4290-b8d9-c04b13e074e4">
+
 
 <!-- TABLE OF CONTENTS -->
 
